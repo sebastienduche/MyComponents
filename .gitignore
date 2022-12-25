@@ -1,2 +1,6 @@
 # Project exclude paths
 /bin/
+/.idea/ant.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

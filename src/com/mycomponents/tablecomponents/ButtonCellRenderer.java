@@ -27,6 +27,12 @@ public class ButtonCellRenderer extends JButton implements TableCellRenderer {
     this.label = label;
   }
 
+  public ButtonCellRenderer(ImageIcon image) {
+    super();
+    this.label = "";
+    this.image = image;
+  }
+
   public ButtonCellRenderer(String label, ImageIcon image) {
     super();
     this.label = label;
