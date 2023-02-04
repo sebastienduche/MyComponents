@@ -1,6 +1,6 @@
 package com.mycomponents;
 
-public interface IModifyable {
+public interface IModifiable {
 
   void reset();
 

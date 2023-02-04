@@ -5,7 +5,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /**
- * Titre : Cave &agrave; vin
+ * Titre : MyComponents
  * Description : Votre description
  * Copyright : Copyright (c) 2005
  * Soci&eacute;t&eacute; : Seb Informatique
@@ -15,7 +15,7 @@ import java.awt.event.KeyEvent;
  * @since 13/04/22
  */
 
-public final class JModifyTextArea extends JTextArea implements IModifyable {
+public final class JModifyTextArea extends JTextArea implements IModifiable {
 
   private static final long serialVersionUID = 7858711227949516336L;
 

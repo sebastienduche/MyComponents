@@ -5,8 +5,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Objects;
 
-/**
- * Titre : Cave &agrave; vin
+/**MyComponentsCave &agrave; vin
  * Description : Votre description
  * Copyright : Copyright (c) 2005
  * Soci&eacute;t&eacute; : Seb Informatique
@@ -15,7 +14,7 @@ import java.util.Objects;
  * @version 0.9
  * @since 13/04/22
  */
-public final class JModifyTextField extends JTextField implements IModifyable {
+public final class JModifyTextField extends JTextField implements IModifiable {
 
   private static final long serialVersionUID = 7663077125632345441L;
 

@@ -4,7 +4,7 @@ import javax.swing.JComboBox;
 import java.awt.event.ItemEvent;
 
 /**
- * <p>Titre : Cave &agrave; vin</p>
+ * <p>Titre : MyComponents</p>
  * <p>Description : Votre description</p>
  * <p>Copyright : Copyright (c) 2005</p>
  * <p>Soci&eacute;t&eacute; : Seb Informatique</p>
@@ -14,7 +14,7 @@ import java.awt.event.ItemEvent;
  * @since 13/04/22
  */
 
-public final class JModifyComboBox<T> extends JComboBox<T> implements IModifyable {
+public final class JModifyComboBox<T> extends JComboBox<T> implements IModifiable {
 
   private static final long serialVersionUID = 833606680694326736L;
 
