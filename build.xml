@@ -7,7 +7,7 @@
     <property name="dir.jarfile" value="${dir.buildfile}"/>
     <target name="create_run_jar">
         <mkdir dir="./Build"/>
-        <jar destfile="Build/MyComponents-1.1.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="Build/MyComponents-1.2.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Class-Path" value="."/>
             </manifest>
